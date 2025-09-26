@@ -294,7 +294,7 @@ def start_scheduler():
 
 # ------------------ CLI / RUN ------------------
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Basic checks
     if "<YOUR_TELEGRAM_BOT_TOKEN>" in TELEGRAM_TOKEN or "<YOUR_CHAT_ID>" in TELEGRAM_CHAT_ID:
         print("Please configure TELEGRAM_TOKEN and TELEGRAM_CHAT_ID in the script before running.")
