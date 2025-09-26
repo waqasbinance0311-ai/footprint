@@ -26,9 +26,9 @@ from datetime import datetime, timedelta, time as dtime
 from apscheduler.schedulers.background import BackgroundScheduler
 
 # ------------------ CONFIG ------------------
-TELEGRAM_TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>"    # e.g. "123456:ABC-DEF..."
-TELEGRAM_CHAT_ID = "<YOUR_CHAT_ID>"             # e.g. "-1001234567890" or "123456789"
-TD_API_KEY = "<YOUR_TWELVEDATA_API_KEY>"        # or set to None if you will plug another data provider
+TELEGRAM_TOKEN = "8287859714:AAF1pSAlSXsa-NlWIwZ4xDcaYcs3KMueu0k"    # e.g. "123456:ABC-DEF..."
+TELEGRAM_CHAT_ID = "8410854765"             # e.g. "-1001234567890" or "123456789"
+TD_API_KEY = "5be1b12e0de6475a850cc5caeea9ac72"        # or set to None if you will plug another data provider
 
 # Trading symbols (adjust to your broker's symbol style if necessary)
 SYMBOL_XAU = "XAU/USD"   # TwelveData symbol for gold
